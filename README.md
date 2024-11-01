@@ -1,10 +1,7 @@
 ﻿
-**Nume: Teodora-Anca Plopeanu**
-**Grupă: 312CA**
+# Distributed Database
 
-## # Tema 2 - Distributed Database
-
-### Descriere:
+## Descriere:
 
 * Tema implementeaza un sistem distribuit, a carui memorie cache functioneaza pe principiul LRU (Least Recently Used), iar balancing-ul serverelor si al documentelor se face pe baza Consistent Hashing.
 
@@ -33,12 +30,4 @@ Serverul are in structura sa:
 * Atunci cand adaugam un nou element in cache, verificam mai intai daca acesta este plin. Daca da, atunci eliminam intrarea cea mai veche (cea de pe list->size - 1) si ii returnam numele documentului (cel eliminat) cu ajutorul evicted_key, pentru a il afisa la response.
 
 * Interactiunea cu utilizatorul se face pe baza unui response, ce se alcatuieste cu ajutorul unor macro-uri, in care adaugam, cu ajutorul functiei sprintf, argumentele corespunzatoare.
-
-
-### Comentarii asupra temei:
-
-* Crezi că ai fi putut realiza o implementare mai bună?
-* Da, prin utilizarea unor structuri mai simple si automatizarea alocarii si a dealocarii memoriei.
-* Ce ai invățat din realizarea acestei teme?
-* Lucrul cu hashmap-uri, pointeri, structuri complexe, Consistent Hashing, LRU
 
