@@ -3,7 +3,7 @@
 
 ## Descriere
 
-* Tema implementeaza un sistem distribuit, a carui memorie cache functioneaza pe principiul LRU (Least Recently Used), iar balancing-ul serverelor si al documentelor se face pe baza Consistent Hashing.
+Proiectul implementeaza un sistem distribuit, a carui memorie cache functioneaza pe principiul LRU (Least Recently Used), iar balancing-ul serverelor si al documentelor se face pe baza Consistent Hashing.
 
 ## Load Balancer
 
